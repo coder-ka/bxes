@@ -14,7 +14,7 @@ Try with:
 npm run storybook
 ```
 
-Stories are in [example.stories.js](./src/stories/example.stories.js).
+Stories are in [example.stories.js](https://github.com/coder-ka/bxes/blob/master/src/stories/example.stories.js).
 
 ## TODO
 

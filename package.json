@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "Boxes, lines and boundaries implemented in React.",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coder-ka/bxes"
+  },
   "dependencies": {
     "eventemitter3": "^4.0.0",
     "react": "^16.12.0",

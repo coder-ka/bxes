@@ -1,6 +1,6 @@
 {
   "name": "bxes",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "description": "Boxes, lines and boundaries implemented in React.",
   "main": "src/index.js",
   "repository": {

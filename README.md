@@ -20,7 +20,7 @@ Try in [CodeSandbox](https://codesandbox.io/s/little-smoke-344c3?fontsize=14&hid
 </Box>
 ```
 
-## usage and interface
+## usage
 
 You can easily check user interface and library interface described with storybook.
 
@@ -30,7 +30,7 @@ Try with:
 npm run storybook
 ```
 
-Stories are in [example.stories.js](https://github.com/coder-ka/bxes/blob/master/src/stories/example.stories.js).
+Stories are in [example.stories.js](https://github.com/coder-ka/bxes/blob/master/stories/example.stories.js).
 
 ## TODO
 

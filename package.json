@@ -1,6 +1,6 @@
 {
   "name": "bxes",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "description": "Boxes, lines and boundaries implemented in React.",
   "main": "src/index.js",
   "repository": {
@@ -14,14 +14,24 @@
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
     "@storybook/react": "^5.2.8",
     "autoprefixer": "^9.7.3",
+    "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "color": "^3.1.2",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^24.9.0",
+    "react-test-renderer": "^16.12.0",
     "tailwindcss": "^1.1.4"
   },
   "scripts": {
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "test": "jest"
   },
   "keywords": [
     "react",

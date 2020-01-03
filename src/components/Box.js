@@ -3,13 +3,21 @@ import { useMoveByDrag, useBox, BoxEv } from "../hooks";
 
 import { BoundaryContext } from "./Boundary";
 
-function Box({ box, onMove, defaultPosition, style, className, zIndex }) {
-  const [position, setPosition] = useState(
-    defaultPosition || {
-      left: 0,
-      top: 0
-    }
-  );
+function Box({
+  children,
+  box,
+  onMove,
+  defaultPosition,
+  style,
+  className,
+  zIndex
+}) {
+  defaultPosition = defaultPosition || {
+    left: 0,
+    top: 0
+  };
+
+  const [position, setPosition] = useState(defaultPosition);
 
   const ref = useRef(null);
   box = box || useRef(new BoxEv({ element: null, rect: null, position: null }));
@@ -53,7 +61,9 @@ function Box({ box, onMove, defaultPosition, style, className, zIndex }) {
         ...style
       }}
       className={className}
-    ></div>
+    >
+      {children}
+    </div>
   );
 }
 

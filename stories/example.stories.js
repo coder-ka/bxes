@@ -1,11 +1,6 @@
 import React, { useState, useRef } from "react";
-import Boundary from "../components/Boundary";
-import Box from "../components/Box";
-import Connector from "../components/Connector";
-import { useBox } from "../hooks";
-
-import "../../.storybook/css/tailwind.css";
-import Connection from "../components/Connection";
+import { Box, Boundary, Connector, Connection, useBox } from "../src";
+import "../.storybook/css/tailwind.css";
 
 export default { title: "Box Usecases" };
 

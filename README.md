@@ -20,7 +20,7 @@ Try in [CodeSandbox](https://codesandbox.io/s/little-smoke-344c3?fontsize=14&hid
 </Box>
 ```
 
-## interface
+## usage and interface
 
 You can easily check user interface and library interface described with storybook.
 
